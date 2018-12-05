@@ -23,7 +23,7 @@ void relax();
 void init();
 void verify(); 
 
-int main()
+int main(int an, char **as)
 {
 	int it;
 	MPI_Init(&an,&as);
